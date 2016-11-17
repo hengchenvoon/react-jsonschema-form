@@ -5,8 +5,8 @@ module.exports = {
   context: __dirname + "/src",
   entry: "./index.js",
   output: {
-    path: "./dist",
-    publicPath: "/dist/",
+    path: "./build",
+    publicPath: "/build/",
     filename: "react-jsonschema-form.js",
     library: "JSONSchemaForm",
     libraryTarget: "umd"
